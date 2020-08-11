@@ -1,0 +1,32 @@
+/*============================
+Page Layout
+============================*/
+
+body {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+#search {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 30%;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+/*============================
+Grid Layout
+============================*/
+
+.grid-container {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 20px;
+}
